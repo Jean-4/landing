@@ -1,0 +1,20 @@
+.container {
+  width: 900px;
+  margin: auto;
+}
+.texte-center{
+text-align: center;
+color: aliceblue;
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
